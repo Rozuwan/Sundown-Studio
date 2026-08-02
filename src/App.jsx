@@ -1,9 +1,10 @@
+import Hompage from "./pages/Hompage"
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello</h1>
-    </div>
+    <>
+   <Hompage />
+    </>
   )
 }
 

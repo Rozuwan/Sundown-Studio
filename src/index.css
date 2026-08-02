@@ -1,1 +1,51 @@
-@import 'tailwindcss'
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/neuehaasgrottext-55roman-trial.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/fonts/neuehaasgrottext-56italic-trial.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/neuehaasgrottext-65medium-trial.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  font-style: italic;
+  font-weight: 500;
+  src: url('/fonts/neuehaasgrottext-66mediumitalic-trial.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/neuehaasgrottext-75bold-trial.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/fonts/neuehaasgrottext-76bolditalic-trial.otf') format('opentype');
+}
+
+@theme {
+  --font-neue: 'Neue Haas Grotesk', sans-serif;
+  --color-black: #2C2B2A;
+  --color-white: #FFFFFF;
+  --color-background: #EFEAE3;
+  --color-primary: #FE370A;
+  --color-secondary: #FFA500;
+}
+
+body {
+  font-family: 'Neue Haas Grotesk', sans-serif;
+}
