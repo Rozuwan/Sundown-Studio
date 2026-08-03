@@ -10,25 +10,24 @@ const Navbar = () => {
         <nav className="mx-auto max-w-full flex justify-between items-center py-7 ">
           {/* logo */}
           <a href="/">
-            <img
-              src={logo}
-              alt="logo"
-              className="w-28 cursor-pointer"
-            />
+            <img src={logo} alt="logo" className="w-28 cursor-pointer" />
           </a>
-          {/* links */}
-          <div className=" hidden font-neue text-lg font-medium  md:flex gap-4 ">
-            {links.map((link) => {
-              return (
-                <a
-                  key={link}
-                  href={`#${link.toLowerCase()}`}
-                  className="border px-4 py-2 rounded-3xl border-gray-400"
-                >
+          {/* nav links */}
+          <div className="hidden gap-4 font-neue text-lg font-medium md:flex">
+            {links.map((link) => (
+              <a
+                key={link}
+                href={`#${link.toLowerCase()}`}
+                className="group relative overflow-hidden rounded-full border border-gray-400 px-4 py-2"
+              >
+                {/* Animated Background */}
+                <span className="absolute inset-0 translate-y-full bg-black transition-transform duration-300 ease-in-out group-hover:translate-y-0"></span>
+                {/* Text */}
+                <span className="relative z-10 transition-colors duration-300 group-hover:text-white">
                   {link}
-                </a>
-              );
-            })}
+                </span>
+              </a>
+            ))}
           </div>
 
           {/* menu btn */}
@@ -41,6 +40,7 @@ const Navbar = () => {
             <IoMenu size={20} /> Menu
           </button>
         </nav>
+
         {/* mobile toggle menu */}
         {openMenu && (
           <div className="md:hidden flex flex-col items-end gap-3 p-3 ">
