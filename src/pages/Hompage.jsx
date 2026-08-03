@@ -1,3 +1,4 @@
+import Hero from "../components/Hero"
 import Navbar from "../components/Navbar"
 
 const Hompage = () => {
@@ -5,6 +6,7 @@ const Hompage = () => {
     <>
       <main className="bg-background">
         <Navbar />
+        <Hero />
       </main>
     </>
   )

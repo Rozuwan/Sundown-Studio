@@ -7,10 +7,10 @@ const Navbar = () => {
   return (
     <>
       <header className="px-8">
-        <nav className="mx-auto max-w-full flex justify-between items-center py-7 ">
+        <nav className="mx-auto max-w-full flex justify-between items-center py-9 ">
           {/* logo */}
           <a href="/">
-            <img src={logo} alt="logo" className="w-28 cursor-pointer" />
+            <img src={logo} alt="logo" className="w-36 cursor-pointer" />
           </a>
           {/* nav links */}
           <div className="hidden gap-4 font-neue text-lg font-medium md:flex">
