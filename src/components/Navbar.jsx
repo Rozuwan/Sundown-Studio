@@ -3,20 +3,26 @@ import logo from "../assets/logo.svg";
 import { IoMenu } from "react-icons/io5";
 const Navbar = () => {
   const links = ["Work", "Studio", "Contact"];
-  const [OpenMenu, setOpenMenu] = useState(false);
+  const [openMenu, setOpenMenu] = useState(false);
   return (
     <>
       <header className="px-8">
-        <nav className="mx-auto max-w-8xl flex justify-between items-center py-7 ">
+        <nav className="mx-auto max-w-full flex justify-between items-center py-7 ">
           {/* logo */}
-          <img src={logo} alt="logo" className="w-28 md:w-36" />
+          <a href="/">
+            <img
+              src={logo}
+              alt="logo"
+              className="w-28 cursor-pointer"
+            />
+          </a>
           {/* links */}
-          <div className=" hidden font-neue text-lg font-medium  md:flex gap-4 lg:gap-5 ">
+          <div className=" hidden font-neue text-lg font-medium  md:flex gap-4 ">
             {links.map((link) => {
               return (
                 <a
                   key={link}
-                  href={`${link}`}
+                  href={`#${link.toLowerCase()}`}
                   className="border px-4 py-2 rounded-3xl border-gray-400"
                 >
                   {link}
@@ -28,7 +34,7 @@ const Navbar = () => {
           {/* menu btn */}
           <button
             onClick={() => {
-              setOpenMenu(!OpenMenu);
+              setOpenMenu(!openMenu);
             }}
             className="md:hidden rounded-3xl border border-gray-400 px-3 py-2 flex gap-1 items-center active:scale-95 "
           >
@@ -36,9 +42,8 @@ const Navbar = () => {
           </button>
         </nav>
         {/* mobile toggle menu */}
-         {OpenMenu && (
-        <div className="md:hidden">
-          <div className="mt-2 flex flex-col items-end gap-3 p-4 ">
+        {openMenu && (
+          <div className="md:hidden flex flex-col items-end gap-3 p-3 ">
             {links.map((link) => (
               <a
                 key={link}
@@ -50,8 +55,7 @@ const Navbar = () => {
               </a>
             ))}
           </div>
-        </div>
-      )}
+        )}
       </header>
     </>
   );
