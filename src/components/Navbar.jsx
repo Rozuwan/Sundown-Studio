@@ -6,7 +6,7 @@ const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
   return (
     <>
-      <header className="px-8">
+      <header className="px-4 md:px-10">
         <nav className="mx-auto max-w-full flex justify-between items-center py-9 ">
           {/* logo */}
           <a href="/">

@@ -14,7 +14,7 @@ const SliderText = () => {
       {items.map((text) => (
         <div
          key={text} 
-         className="flex shrink-0 items-center gap-6 py-20"
+         className="flex shrink-0 items-center gap-6 py-4 md:py-13"
          >
           <h1 
           className="font-neue text-6xl font-bold md:text-[138px] "
