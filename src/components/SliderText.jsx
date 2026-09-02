@@ -10,7 +10,9 @@ const SliderText = () => {
     autoFill 
     speed={250} 
     gradient={false}
-     gap="24px">
+     gap="24px"
+     className="py-8 "
+     >
       {items.map((text) => (
         <div
          key={text} 
