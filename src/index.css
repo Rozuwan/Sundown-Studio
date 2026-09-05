@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "locomotive-scroll/locomotive-scroll.css";
 
 @font-face {
   font-family: "Neue Haas Grotesk";
@@ -47,8 +48,14 @@
   --color-secondary: #ffa500;
 }
 
-body {
+html, body {
+  overflow: hidden;
+  height: 100%;
   font-family: "Neue Haas Grotesk", sans-serif;
+}
+
+[data-scroll-container] {
+  height: 100%;
 }
 
 @keyframes blob1 {
