@@ -1,4 +1,5 @@
 import About from "../components/About";
+import FeaturedProject from "../components/FeaturedProject";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import SliderText from "../components/SliderText";
@@ -13,6 +14,7 @@ const Homepage = () => {
         <Video />
         <SliderText />
         <About />
+        <FeaturedProject />
       </main>
     </>
   );
