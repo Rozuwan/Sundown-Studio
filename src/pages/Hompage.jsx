@@ -7,6 +7,7 @@ import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import SliderText from "../components/SliderText";
 import Video from "../components/Video";
+import Project from "../components/Project";
 
 const Homepage = () => {
   useEffect(() => {
@@ -31,6 +32,7 @@ const Homepage = () => {
       <SliderText />
       <About />
       <FeaturedProject />
+      <Project />
     </main>
   );
 };
