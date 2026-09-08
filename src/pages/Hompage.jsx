@@ -11,12 +11,19 @@ import Footer from "../components/Footer";
 import Working from "../components/Working";
 
 const Homepage = () => {
-  useEffect(() => {
-    const scroll = new LocomotiveScroll({
-      lenisOptions: { lerp: 0.09, smoothWheel: true, wheelMultiplier: 1 },
-    });
-    return () => scroll.destroy();
-  }, []);
+useEffect(() => {
+  const scroll = new LocomotiveScroll({
+    lenisOptions: {
+      lerp: 0.09,
+      smoothWheel: true,
+      wheelMultiplier: 1,
+    },
+  });
+
+  return () => {
+    scroll.destroy();
+  };
+}, []);
 
   return (
       <>
@@ -30,7 +37,7 @@ const Homepage = () => {
         <FeaturedProject />
         <Project />
         <Working />
-        
+
       </div>
 
     </main>

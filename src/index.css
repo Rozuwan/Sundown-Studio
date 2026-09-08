@@ -49,13 +49,7 @@
 }
 
 html, body {
-  overflow: hidden;
-  height: 100%;
   font-family: "Neue Haas Grotesk", sans-serif;
-}
-
-[data-scroll-container] {
-  height: 100%;
 }
 
 @keyframes blob1 {
