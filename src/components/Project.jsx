@@ -43,7 +43,7 @@ const Project = () => {
       {/* Project */}
       <div className="flex flex-col bg-black rounded-2xl md:flex-row">
         {/* Tabs + Text */}
-        <div className="flex flex-col p-8 md:flex-1 md:justify-center">
+        <div className="flex gap-3 flex-col p-8 md:flex-1 md:justify-center">
           {Object.keys(content).map((slug) => (
             <h1
               key={slug}
@@ -62,7 +62,7 @@ const Project = () => {
         </div>
 
         {/* Image */}
-        <div className="md:w-2/5 md:min-h-200">
+        <div className="md:w-2/4 md:min-h-200">
           <img
             src={content[activeTab].image}
             alt={content[activeTab].title}
