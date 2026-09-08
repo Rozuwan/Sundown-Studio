@@ -71,7 +71,7 @@ const Loader = () => {
           : "[clip-path:inset(0_0_0_0)]"
       }`}
     >
-      <h1 className="font-neue text-6xl md:text-8xl font-bold bg-linear-to-r from-[#ffb13b] via-[#ff671b] to-[#ff2d03] bg-clip-text text-transparent">
+      <h1 className="font-neue text-5xl md:text-8xl font-bold bg-linear-to-r from-[#ffb13b] via-[#ff671b] to-[#ff2d03] bg-clip-text text-transparent">
         {words[index]}
       </h1>
     </div>
