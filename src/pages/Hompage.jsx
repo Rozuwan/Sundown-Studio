@@ -30,6 +30,7 @@ const Homepage = () => {
         <FeaturedProject />
         <Project />
         <Working />
+        
       </div>
 
     </main>
