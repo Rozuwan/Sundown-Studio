@@ -24,18 +24,11 @@ An independent recreation of the Sundown Studio website, built as a frontend lea
 <br />
 
 
-<p>
-  <strong>DEMO</strong>
-</p>
-
-<br />
-
+## DEMO
 <p align="center">
   <video src="https://github.com/user-attachments/assets/726c047f-c268-4613-b9d7-39c2c9980237" width="100%" controls></video>
 </p>
 
-
-<br />
 
 ### [Visit the site](https://sundown-studio-theta-eight.vercel.app/)
 
