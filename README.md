@@ -1,16 +1,40 @@
-# React + Vite
+<p align="center">
+  <img src="public/assets/logo.svg" alt="Sundown Studio" width="200" />
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center"><em>Sundown Studio — Website Recreation</em></p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=fff" alt="Vite" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=fff" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Locomotive_Scroll-000?style=for-the-badge&logoColor=fff" alt="Locomotive Scroll" />
+  <img src="https://img.shields.io/badge/Swiper-6332F6?style=for-the-badge&logo=swiper&logoColor=fff" alt="Swiper" />
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<br />
 
-## React Compiler
+<div align="center">
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## About
 
-## Expanding the ESLint configuration
+An independent recreation of the Sundown Studio website, built as a frontend learning project — focused on reproducing its visual language and interactions: layout, typography, smooth scrolling, and animated page sections.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<br />
+
+<video src="public/assets/sundown-studio-demo.mp4" width="100%" autoplay muted loop playsinline controls style="border-radius:16px;"></video>
+
+<br />
+
+### [Visit the site](https://sundown-studio-theta-eight.vercel.app/)
+
+</div>
+
+<br />
+
+---
+
+<p align="center">
+  <sub>Independent recreation for learning and portfolio purposes. Not the official Sundown Studio website. Original design belongs to its respective creators — <a href="https://sundown-studio.com/">sundown-studio.com</a>.</sub>
+</p>
