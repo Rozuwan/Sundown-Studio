@@ -23,7 +23,17 @@ An independent recreation of the Sundown Studio website, built as a frontend lea
 
 <br />
 
-<video src="public/assets/Sundown%20Studio%20Demo.mp4" width="100%" autoplay muted loop playsinline controls style="border-radius:16px;"></video>
+
+<p>
+  <strong>DEMO</strong>
+</p>
+
+<br />
+
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/726c047f-c268-4613-b9d7-39c2c9980237" width="100%" controls></video>
+</p>
+
 
 <br />
 
